@@ -67,7 +67,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: "Acme", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -161,7 +161,7 @@ body{
 }
 .btn--outline:link, 
 .btn--outline:visited{
-    background-color: #756C83;
+    border: 2px solid black;
     color: #fff;
 }
 .btn--outline:hover, 
@@ -178,6 +178,10 @@ body{
 .btn--form:hover{
     background-color: #fff;
     color: #555;
+}
+.btn-animated{
+    animation: moveInBottom 1s ease-out .75s;
+    animation-fill-mode: backwards;
 }
 .link:link,
 .link:visited {
